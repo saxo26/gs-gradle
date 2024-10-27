@@ -62,7 +62,7 @@ allprojects {
 artifactory {
     publish {
         repository {
-            repoKey = 'gradle-dev-local'
+            repoKey = 'jenkins-test-gradle-dev-local'
             maven = true
         }
         defaults {
